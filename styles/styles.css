@@ -1,0 +1,99 @@
+.imgland{
+   width: 100%;
+   height: 900px;
+}
+.mtavari-divi{
+   position: relative;
+}
+.dino1 {
+   position: absolute;
+   bottom: 200px;
+   right: 600px;
+   animation: dino1 15s infinite;
+   transition-timing-function: ease;
+}
+.dino2 {
+   position: absolute;
+   top: 50px;
+   left:  50px;
+   animation: dino2 15s infinite;
+   transition-timing-function: ease;
+ }
+ .dino3{
+  position: absolute;
+  top: 60px;
+  right: 100px;
+  animation: dino3 15s infinite;
+  transition-timing-function: ease;
+ }
+ .dino4{
+   position: absolute;
+   bottom: 280px;
+   left: 200px;
+   animation: dino4 15s infinite ;
+   transition-timing-function: ease; 
+ }
+ .homo {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   animation: homo 1s infinite;
+   transition-timing-function: ease;
+ }
+
+.dino1-img{ 
+   width: 150px;
+   height: 100px;
+  }
+.dino2-img {
+  width: 150px;
+   height: 100px;
+}
+.dino3-img {
+  width: 150px;
+   height: 100px;
+}
+.dino4-img {
+  width: 150px;
+  height: 100px;
+}
+.homo-img{
+   width: 150px;
+  height: 100px;
+}
+@keyframes dino1 {
+	0% { right: 600px; }
+	20%{ right: 40%;}
+	40%{ right: 60%; }
+	50%{ bottom: 100px; }
+	60%{ right: 80%;}
+	100%{ right: 100%; }
+}
+@keyframes dino4 {
+    0% { left: 200px; }
+	20%{ left: 40%;}
+	40%{ left: 60%; }
+	/*50%{ bottom: 350px; }
+	60%{ bottom: 450px;}*/
+	100%{ left: 100%; }
+}
+@keyframes dino3 {
+   0%{ right: 200px; }
+   20% { right: 40%; }
+   40% { right: 60%; }
+   50%{ top: 200px; }
+   55% {top: 100px;}
+   100% {right: 100%;}
+
+}
+@keyframes dino2 {
+   0%{ left: 200px; }
+   20% { left: 40%; }
+   40% { left: 60%; }
+   100% {left: 100%;}
+}
+
+@keyframes homo {
+   from { top: 45% }
+   to { top: 50%; }
+}
